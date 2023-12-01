@@ -98,17 +98,87 @@
         padding-top: 6rem;
         position: relative;
     }
-    .features-txt, .features-vid{
+    .features-txt,.benefits-img, .features-vid, .benefits-txt{
         width: 100%;
         margin: 0;
+        padding-left: 0;
     }
-    .features-vid img{
+    .features-txt h1, .benefits-txt h1{
+        padding-right: 0;
+        text-align: center;
+    }
+    .features-vid img, .benefits-img img{
         width: 100%;
+    }
+    .benefits-img img{
+        height: 623px;
+    }
+    .list{
+        display: block;
     }
     .desktop{
         display: none;
     }
     .mobile{
         display: block;
+    }
+
+    .testimonial{
+        margin: 0 1rem;
+    }
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .slide {
+        min-width: 100%;
+    }
+
+    
+    .fift{
+        padding: 2rem;
+    }
+    .cl-logo{
+        min-width: 50%;
+    }
+    .cl-logo img{
+        width: 150px;
+    }
+
+    .subscrip{
+        padding: 2rem 2rem;
+    }
+    .subs-txt{
+        padding: 0;
+    }
+    .subs-txt h3{
+        font-size: 18px;
+        padding: 1rem 0;
+    }
+    input{
+        width: 94.96%;
+        margin: 4px 0;
+        padding: 8px 0;
+        padding-left: 15px;
+    }
+    .submit{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .footer img{
+        width: 54%;
+    }
+    .foot-txt{
+        display: block;
+    }
+    .foot-txt div{
+        padding: 0.3rem;
+    }
+    .lst{
+        padding-top: 2rem;
     }
 }

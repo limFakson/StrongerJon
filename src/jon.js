@@ -50,4 +50,52 @@ document.addEventListener("DOMContentLoaded", function () {
       nextSlide();
     }, 3000);
   });
+
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const clogo = document.querySelector(".client-logo");
+    const logos = document.querySelectorAll(".cl-logo");
+    let currentIndex = 0;
+    let startX;
+  
+    function showLogo(index) {
+      const logoWidth = logos[0].offsetWidth;
+      clogo.style.transform = `translateX(${-index * logoWidth}px)`;
+    }
+  
+    function nextLogo() {
+      currentIndex = (currentIndex + 1) % logos.length;
+      showLogo(currentIndex);
+    }
+  
+    function prevLogo() {
+      currentIndex = (currentIndex - 1 + logos.length) % logos.length;
+      showLogo(currentIndex);
+    }
+  
+    function startSwipe(e) {
+      startX = e.clientX || e.touches[0].clientX;
+    }
+  
+    function endSwipe(e) {
+      if (startX === undefined) return;
+      const endX = e.clientX || e.changedTouches[0].clientX;
+      const diffX = startX - endX;
+  
+      if (diffX > 50) {
+        nextLogo();
+      } else if (diffX < -50) {
+        prevLogo();
+      }
+  
+      startX = undefined;
+    }
+  
+    clogo.addEventListener("mousedown", startSwipe);
+    clogo.addEventListener("touchstart", startSwipe);
+  
+    clogo.addEventListener("mouseup", endSwipe);
+    clogo.addEventListener("touchend", endSwipe);
+  });
+  
   

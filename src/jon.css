@@ -55,6 +55,7 @@ button{
     font-family: "Bebas Neue";
     border: none;
     background-color: #000;
+    cursor: pointer;
 }
 
 .hero{
@@ -196,6 +197,7 @@ img{
 }
 .cards-bottom h2{
     font-size: 30px;
+    font-family: "Bebas Neue";
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.2px;
@@ -239,16 +241,20 @@ img{
 }
 .listed{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: 5.2rem;
+    height: 4.5rem;
 }
 .list-icon{
-    width: 15.753%;
-    padding: 0 1rem;
+    width: 40px;
+}
+.list-txt{
+    margin-left: 1em;
+    width: 220px;
 }
 .list-txt h2{
     font-size: 23px;
+    font-family: "Bebas Neue";
     font-weight: 500;
     color: #fff;
 }
@@ -292,8 +298,7 @@ img{
     padding-bottom: 2rem;
 }
 .carousel {
-    width: 97%; /* Adjust as needed */
-    margin: 1rem;
+    width: 97%; 
     overflow: hidden;
  }
 .slide-container {
@@ -302,8 +307,8 @@ img{
     gap: 10px;
 }
 .slide {
-    min-width: 50%; /* Display two slides at once */
-    box-sizing: border-box;
+    min-width: 50%;
+    cursor: none;
 }
 .container {
     background-color: #000;
@@ -349,7 +354,7 @@ img{
 }
 
 .fift{
-    padding: 2rem 1rem;
+    padding: 2rem 4rem;
 }
 .fif-txt{
     text-align: center;
@@ -360,4 +365,103 @@ img{
     font-family: "Bebas Neue", Sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+.client-logo{
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+    gap: 10px;
+    margin-top: 1em;
+}
+.cl-logo{
+    min-width: 20%;
+}
+.cl-logo img{
+    width: 175px;
+    margin-right: 30px;
+    height: auto;
+}
+
+
+.subscrip{
+    position: relative;
+    background-color: #000;
+    padding: 5rem;
+}
+.subs-txt{
+    text-align: center;
+    color: #fff;
+    padding: 0 3rem;
+}
+.subs-txt h3{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+.subs-txt h2{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2rem 0;
+    letter-spacing: 1.5px;
+}
+input{
+    padding: 1rem 0;
+    padding-left: 35px;
+    width: 360px;
+    margin: 0 5px;
+    margin-bottom: 16px;
+    font-family: "Hind", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    border: 2px #fff solid;
+}
+.submit{
+    width: 780px;
+    padding: 1.165rem;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    color: #000;
+}
+
+footer{
+    text-align: center;
+    margin: 1.5rem;
+}
+.footer{
+    display: inline;
+    vertical-align: middle;
+}
+.footer img{
+    width: 20%;
+}
+.foot-txt{
+    display: flex;
+    justify-content: center;
+}
+.foot-txt div{
+    padding: 0.9rem;
+}
+.foot-txt h3{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.insta span{
+    display: inline-block;
+    padding-right: 0.3em;
+}
+.insta i{
+    font-weight: 400;
+}
+.lst{
+    color: #121111;
+    font-family: "Hind", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
