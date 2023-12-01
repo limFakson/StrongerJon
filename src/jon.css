@@ -23,7 +23,6 @@
 
 body{
     background-color: #fff;
-    overflow: hidden;
 }
 h1{
     font-family: "Bebas Neue";
@@ -33,7 +32,7 @@ h1{
     line-height: 62px;
     letter-spacing: 1.2px;
 }
-h3,p{
+h3,h2,p{
     font-family: "Hind", sans-serif;
 }
 hr{
@@ -41,6 +40,10 @@ hr{
     margin-bottom: 1em;
     width: 100%;
     color: RGBA(255, 255, 255, 0.15);
+}
+ul{
+    list-style: none;
+    margin-left: -70px;
 }
 
 button{
@@ -275,4 +278,84 @@ img{
 }
 .benefits-list{
     width: 100%;
+}
+
+.frth{
+    margin-top: 1rem;
+    padding: 3rem 0;
+    background-color: #E6E6E645;
+}
+.test-txt h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.carousel {
+    width: 97%; /* Adjust as needed */
+    margin: 1rem;
+    overflow: hidden;
+ }
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 10px;
+}
+.slide {
+    min-width: 50%; /* Display two slides at once */
+    box-sizing: border-box;
+}
+.container {
+    background-color: #000;
+    padding: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+.fst-icon{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.fst-icon i{
+    font-size: 39px;
+}
+.textimonial-txt{
+    padding: 10px 1rem;
+}
+.textimonial-txt h2{
+    font-family: "Hind", Sans-serif;
+    font-size: 19px;
+    font-style: italic;
+}
+.ratings{
+    padding: 2rem 0;
+}
+.ratings ul li{
+    display: inline-block;
+    justify-content: center;
+    padding: 0 6px;
+}
+.ratings ul li i{
+    color: #fec42d;
+    display: block;
+}
+.profile{
+    display: grid;
+    justify-content: center;
+    margin-top: -30px;
+}
+.pro-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.fift{
+    padding: 2rem 1rem;
+}
+.fif-txt{
+    text-align: center;
+}
+.fif-txt h2{
+    padding-top: 1rem;
+    color: #1C1C1C;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
