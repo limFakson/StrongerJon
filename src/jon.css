@@ -23,6 +23,7 @@
 
 body{
     background-color: #fff;
+    overflow: hidden;
 }
 h1{
     font-family: "Bebas Neue";
@@ -34,6 +35,12 @@ h1{
 }
 h3,p{
     font-family: "Hind", sans-serif;
+}
+hr{
+    margin-top: 6rem;
+    margin-bottom: 1em;
+    width: 100%;
+    color: RGBA(255, 255, 255, 0.15);
 }
 
 button{
@@ -195,35 +202,77 @@ img{
 
 .thrd{
     background-color: #000;
+    margin-bottom: 2rem;
 }
 .thrd-sec-div{
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+.overlay-dark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
     opacity: 0.47;
     background-image: url('../img/bg-page-3.png');
 }
 .features{
     display: flex;
-    padding-top: 5rem;
+    padding-top: 6rem;
+    position: relative;
 }
 .features-txt{
-    width: 50%;
+    width: 60%;
+    padding-top: 3rem;
 }
-.features-list{
+.features-txt h1, .benefits-txt h1{
+    color: #fff;
+    padding-right: 4rem;
+}
+.list{
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin-top: 2rem;
 }
 .listed{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5.2rem;
 }
 .list-icon{
-    width: 19.375%;
+    width: 15.753%;
+    padding: 0 1rem;
+}
+.list-txt h2{
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
 }
 .features-vid{
-    width: 50%;
+    width: 40%;
 }
 .features-vid img{
-    width: 216px;
-    height: 384px;
+    width: 406px;
+    height: 704px;
+    object-fit: cover;
+}
+.benefits{
+    margin-bottom: 3rem;
 }
 .benefits-txt{
-    display: flex;
+    width: 50%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.benefits-img{
+    width: 50%;
+}
+.benefits-img img{
+    width: 536px;
+    height: 724px;
+}
+.benefits-list{
+    width: 100%;
 }
