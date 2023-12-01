@@ -1,24 +1,48 @@
 *{
-    font-family: "Bebas Neue", Sans-serif;
+    font-family: "Bebas Neue", "Hind", Sans-serif;
     color: #000;
     margin: 0;
 }
+
+/* Background image in second section */
+.str{
+    background-image: url('../img/muscular-shirtless-man-working-out-with-heavy-ropes.jpg');
+}
+.stro{
+    background-image: url('../img/ketogenic-keto-or-paleo-diet-lunch-bowl-with-salted-salmon-fish.jpg');
+}
+.stron{
+    background-image: url('../img/close-up-of-man-with-smartwatch-sleeping-in-bed.jpg');
+}
+.strong{
+    background-image: url('../img/young-african-american-man-reading-book-while-relaxing-on-the-sofa-.jpg');
+}
+.strongj{
+    background-image: url('../img/selfie-fitness-and-peace-with-a-black-man-on-the-beach-for-a-cardio-or-endurance-workout-during-su.jpg');
+}
+
 
 body{
     background-color: #fff;
 }
 h1{
     font-family: "Bebas Neue";
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 62px;
+    letter-spacing: 1.2px;
 }
 h3,p{
-    font-family: sans-serif;
+    font-family: "Hind", sans-serif;
 }
 
 button{
-    width: 15rem;
-    height: 3.2rem;
+    padding: 20px 40px;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
     font-family: "Bebas Neue";
     border: none;
     background-color: #000;
@@ -27,7 +51,7 @@ button{
 .hero{
     display: flex;
     margin: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .fst-txt{
     width: 55%;
@@ -46,19 +70,23 @@ img{
     width: 520px;
 }
 .fst-txt h1{
-    font-size: 2rem;
     padding: 2rem 0;
 }
 .fst-txt p{
-    font-size: 1.2rem;
+    font-size: 17px;
+    font-weight: 400;
     padding-bottom: 2rem;
 }
 .fst-img{
-    margin-top: 6rem;
-    width: 480px;
+    margin-top: 5rem;
+    width: 500px;
     height: 640px;
 }
 
+.fst{
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
 .txt-preview{
     display: flex;
     justify-content: space-around;
@@ -67,17 +95,23 @@ img{
     height: 20rem;
 }
 #i{
-    width: 40%;
+    width: 50%;
 }
 #i h1{
-    font-size: 2rem;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 62px;
+    letter-spacing: 1.2px;
     color: #fff;
 }
 #e{
-    width: 60%;
+    width: 50%;
 }
 #e h3{
-    font-size: 1.4rem;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 31px;
     color: #fff;
 }
 .sec-img{
@@ -87,11 +121,61 @@ img{
 
 .sec{
     margin: 2rem;
+}
+.sec h1{
     text-align: center;
 }
 .cards{
     display: flex;
+    justify-content: center;
 }
 .card{
-    flex-wrap: wrap;
+    position: relative;
+    width: 33.333%;
+    height: 450px;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.co-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    background-image: linear-gradient(180deg, #02010100 0%, #131212 73%);
+}
+.card-txt{
+    position: absolute;
+    top: 43%;
+    text-align: left;
+    padding: 10px 40px 10px 45px;
+}
+.card-txt h1{
+    font-size: 52px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+.card-txt p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.large-card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-strong{
+    width: 50%;
+    height: 400px;
+    margin: 1rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
 }
