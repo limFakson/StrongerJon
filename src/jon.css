@@ -89,7 +89,7 @@ img{
 .fst-img{
     margin-top: 5rem;
     width: 500px;
-    height: 640px;
+    height: 750px;
 }
 
 .fst{
@@ -149,7 +149,6 @@ img{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
 }
 .co-overlay{
     width: 100%;
@@ -252,6 +251,9 @@ img{
     font-size: 23px;
     font-weight: 500;
     color: #fff;
+}
+.mobile{
+    display: none;
 }
 .features-vid{
     width: 40%;

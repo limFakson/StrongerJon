@@ -1,0 +1,114 @@
+@media (max-width: 460px) {
+    body{
+        width: auto;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 1.1em;
+        letter-spacing: 1px;
+    }
+    h3,h2,p{
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+
+    .hero{
+        display: block;
+        margin: 0.3rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .fst-txt{
+        width: 100%;
+        margin: 0.5rem 0.2rem;
+        text-align: center;
+    }
+    .txt{
+        width: 100%;
+    }
+    .logo{
+        width: 59%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .fst-img{
+        margin-top: 5rem;
+        width: auto;
+        height: auto;
+    }
+
+    .txt-preview{
+        display: block;
+        padding: 5rem 1.6rem; 
+        padding-bottom: 13px;
+        height: auto;
+    }
+    #i, #e{
+        width: 100%;
+        text-align: center;
+    }
+    #i h1{
+        font-size: 33px;
+        line-height: 1.3em;
+        padding-bottom: 1rem;
+    }
+    .sec-img{
+        padding: 0 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .sec{
+        margin: 0.5rem 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .cards, .large-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .card, .card-strong{
+        width: 100%;
+        min-height: 1px;
+        height: 340px;
+        margin: 0; 
+    }
+    .card-txt{
+        padding: 10px 20px 10px 25px;
+    }
+    .card-txt h1{
+        font-size: 38px;
+    }
+    .card-txt p{
+        font-size: 16px;
+    }
+    .strong{
+        margin-top: 1em;
+    }
+    .cards-bottom{
+        margin-top: 5rem;
+    }
+    .cards-bottom h2{
+        font-size: 24px;
+        font-family: "Bebas Neue";
+        line-height: 1.3em;
+    }
+
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 6rem;
+        position: relative;
+    }
+    .features-txt, .features-vid{
+        width: 100%;
+        margin: 0;
+    }
+    .features-vid img{
+        width: 100%;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
