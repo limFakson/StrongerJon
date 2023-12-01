@@ -1,6 +1,5 @@
 *{
     font-family: "Bebas Neue", "Hind", Sans-serif;
-    color: #000;
     margin: 0;
 }
 
@@ -29,7 +28,7 @@ h1{
     font-family: "Bebas Neue";
     font-size: 56px;
     font-weight: 600;
-    text-transform: none;
+    text-transform: uppercase;
     line-height: 62px;
     letter-spacing: 1.2px;
 }
@@ -121,9 +120,11 @@ img{
 
 .sec{
     margin: 2rem;
+    margin-bottom: 4rem;
 }
 .sec h1{
     text-align: center;
+    padding-bottom: 15px;
 }
 .cards{
     display: flex;
@@ -178,4 +179,51 @@ img{
     background-size: cover;
     max-width: 100%;
     position: relative;
+}
+.cards-bottom{
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0 15px;
+}
+.cards-bottom h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    padding-bottom: 1.2rem;
+}
+
+.thrd{
+    background-color: #000;
+}
+.thrd-sec-div{
+    opacity: 0.47;
+    background-image: url('../img/bg-page-3.png');
+}
+.features{
+    display: flex;
+    padding-top: 5rem;
+}
+.features-txt{
+    width: 50%;
+}
+.features-list{
+    display: flex;
+    width: 100%;
+}
+.listed{
+    display: flex;
+}
+.list-icon{
+    width: 19.375%;
+}
+.features-vid{
+    width: 50%;
+}
+.features-vid img{
+    width: 216px;
+    height: 384px;
+}
+.benefits-txt{
+    display: flex;
 }
