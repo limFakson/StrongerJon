@@ -184,7 +184,7 @@
 }
 
 /* Tablet */
-@media (max-width: 830px) {
+@media (max-width: 910px) {
     body{
         width: auto;
     }
