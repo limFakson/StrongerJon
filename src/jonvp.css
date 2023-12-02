@@ -189,7 +189,7 @@
         width: auto;
     }
     h1{
-        font-size: 48px;
+        font-size: 45px;
         line-height: 1.2em;
         letter-spacing: 1px;
     }
@@ -258,7 +258,7 @@
         margin-bottom: 2rem;
     }
     .card{
-        height: 370px;
+        height: 365px;
     }
     .card-strong{
         height: 300px;
@@ -280,7 +280,7 @@
         margin-top: 2rem;
     }
     .cards-bottom h2{
-        font-size: 24px;
+        font-size: 20px;
         font-family: "Bebas Neue";
         line-height: 1.3em;
     }
@@ -311,8 +311,8 @@
         padding: 0;
     }
     .list-icon{
-        padding-top: 1rem;
-        width: 23px;
+        padding-top: 1.2rem;
+        width: 23px;         
         align-self: flex-start;
     }
     .list-txt{
@@ -320,6 +320,7 @@
         width: 120px;
     }
     .list-txt h2{
+        font-size: 20px;
         line-height: 1.1em;
     }
     .list{
@@ -349,6 +350,15 @@
     .slide {
         min-width: 50%;
     }
+    .textimonial-txt h2{
+        font-size: 18px;
+    }
+    .fst-icon i{
+        font-size: 30px;
+    }
+    .container{
+        padding: 10px;
+    }
 
     
     .fift{
@@ -368,8 +378,8 @@
     .subs-txt{
         padding: 0;
     }
-    .subs-txt h3{
-        font-size: 24px;
+    .subs-txt h3,.fif-txt h2, .subs-txt h2{
+        font-size: 18px;
         padding: 1rem 0;
     }
     input{
