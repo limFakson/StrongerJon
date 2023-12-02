@@ -184,7 +184,7 @@
 }
 
 /* Tablet */
-@media (max-width: 1100px) and (min-width: 500px){
+@media (max-width: 1000px) and (min-width: 500px){
     body{
         width: auto;
     }
@@ -194,7 +194,7 @@
         letter-spacing: 1px;
     }
     h3,h2,p{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.4em;
     }
     button{
@@ -350,8 +350,8 @@
     .slide {
         min-width: 50%;
     }
-    .textimonial-txt h2{
-        font-size: 18px;
+    .container h2{
+        font-size: 16px;
     }
     .fst-icon i{
         font-size: 30px;
@@ -362,7 +362,7 @@
 
     
     .fift{
-        padding: 2rem;
+        padding: 3rem 2rem;
     }
     .cl-logo{
         min-width: 25%;
