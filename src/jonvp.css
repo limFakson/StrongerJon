@@ -182,3 +182,219 @@
         padding-top: 2rem;
     }
 }
+
+/* Tablet */
+@media (max-width: 830px) {
+    body{
+        width: auto;
+    }
+    h1{
+        font-size: 48px;
+        line-height: 1.2em;
+        letter-spacing: 1px;
+    }
+    h3,h2,p{
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    button{
+        padding: 10px 40px;
+    }
+
+    .hero{
+        display: flex;
+        margin: 0.3rem 2rem;
+        margin-bottom: 1rem;
+    }
+    .fst-txt{
+        width: 50%; 
+        margin: 0.5rem 0.2rem;
+        text-align: left;
+    }
+    .txt{
+        width: 100%;
+        margin-right: 2rem;
+    }
+    .im-fst{
+        width: 50%;
+    }
+    .logo{
+        width: 40%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .fst-img{
+        margin-left: 2rem;
+        margin-top: 5rem;
+        width: 330px;
+        height: 550px;
+    }
+
+    .txt-preview{
+        padding: 5rem 1.6rem; 
+        padding-bottom: 13px;
+        height: 25rem;
+        gap: 1rem;
+    }
+    #i, #e{
+        width: 50%;
+        text-align: left;
+    }
+    #i h1{
+        font-size: 52px;
+        line-height: 1.4em;
+        padding-bottom: 1rem;
+    }
+    #e h3{
+        font-size: 16px;
+    }
+    .sec-img{
+        padding: 0 1.8rem;
+        margin-top: -10rem;
+    }
+
+    .sec{
+        margin: 0.5rem 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .card{
+        height: 370px;
+    }
+    .card-strong{
+        height: 300px;
+    }
+    .card-txt{
+        top: 39%;
+        padding: 10px 10px 10px 15px;
+    }
+    .card-txt h1{
+        font-size: 35px;
+    }
+    .card-txt p{
+        font-size: 16px;
+    }
+    .strong{
+        margin-top: 1em;
+    }
+    .cards-bottom{
+        margin-top: 2rem;
+    }
+    .cards-bottom h2{
+        font-size: 24px;
+        font-family: "Bebas Neue";
+        line-height: 1.3em;
+    }
+
+    .features{
+        padding-top: 6rem;
+        position: relative;
+    }
+    .features-txt,.benefits-img, .features-vid, .benefits-txt{
+        width: 50%;
+        margin: 0;
+        padding-left: 0;
+    }
+    .features-vid{
+        padding-left: 2rem;
+    }
+    .benefits-txt{
+        margin-left: 1em;
+    }
+    .features-txt h1, .benefits-txt h1{
+        padding-right: 0;
+        text-align: left;
+    }
+    .listed {
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        padding: 0;
+    }
+    .list-icon{
+        padding-top: 1rem;
+        width: 23px;
+        align-self: flex-start;
+    }
+    .list-txt{
+        margin-left: 5px;
+        width: 120px;
+    }
+    .list-txt h2{
+        line-height: 1.1em;
+    }
+    .list{
+        gap: 1.2rem;
+    }
+    .features-vid img{
+        width: 89%;
+    }
+    .benefits-img img{
+        width: 94%;
+        height: 653px;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+    .testimonial{
+        margin: 0 1rem;
+    }
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .slide {
+        min-width: 50%;
+    }
+
+    
+    .fift{
+        padding: 2rem;
+    }
+    .cl-logo{
+        min-width: 25%;
+    }
+    .cl-logo img{
+        width: 77%;
+        margin: 0 5px;
+    }
+
+    .subscrip{
+        padding: 2rem 2rem;
+    }
+    .subs-txt{
+        padding: 0;
+    }
+    .subs-txt h3{
+        font-size: 24px;
+        padding: 1rem 0;
+    }
+    input{
+        width: 330px;
+        margin: 4px 5px;
+        padding: 8px 0;
+        padding-left: 15px;
+    }
+    .submit{
+        width: 660px;
+        padding: 1rem;
+        margin: 8px 0;
+        font-size: 20px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .footer img{
+        width: 27%;
+    }
+    .foot-txt div{
+        padding: 0.4rem;
+    }
+    .lst{
+        padding-top: 2rem;
+    }
+}
