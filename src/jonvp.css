@@ -1,190 +1,5 @@
-@media (max-width: 480px) {
-    body{
-        width: auto;
-    }
-    h1{
-        font-size: 40px;
-        line-height: 1.1em;
-        letter-spacing: 1px;
-    }
-    h3,h2,p{
-        font-size: 18px;
-        line-height: 1.4em;
-    }
-
-    .hero{
-        display: block;
-        margin: 0.3rem 1rem;
-        margin-bottom: 1rem;
-    }
-    .fst-txt{
-        width: 100%;
-        margin: 0.5rem 0.2rem;
-        text-align: center;
-    }
-    .txt{
-        width: 100%;
-    }
-    .logo{
-        width: 59%;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .fst-img{
-        margin-top: 5rem;
-        width: auto;
-        height: auto;
-    }
-
-    .txt-preview{
-        display: block;
-        padding: 5rem 1.6rem; 
-        padding-bottom: 13px;
-        height: auto;
-    }
-    #i, #e{
-        width: 100%;
-        text-align: center;
-    }
-    #i h1{
-        font-size: 33px;
-        line-height: 1.3em;
-        padding-bottom: 1rem;
-    }
-    .sec-img{
-        padding: 0 1.8rem;
-        margin-top: 3rem;
-    }
-
-    .sec{
-        margin: 0.5rem 1.3rem;
-        margin-bottom: 2rem;
-    }
-    .cards, .large-card{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1em;
-    }
-    .card, .card-strong{
-        width: 100%;
-        min-height: 1px;
-        height: 340px;
-        margin: 0; 
-    }
-    .card-txt{
-        padding: 10px 20px 10px 25px;
-    }
-    .card-txt h1{
-        font-size: 38px;
-    }
-    .card-txt p{
-        font-size: 16px;
-    }
-    .strong{
-        margin-top: 1em;
-    }
-    .cards-bottom{
-        margin-top: 5rem;
-    }
-    .cards-bottom h2{
-        font-size: 24px;
-        font-family: "Bebas Neue";
-        line-height: 1.3em;
-    }
-
-    .features{
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 6rem;
-        position: relative;
-    }
-    .features-txt,.benefits-img, .features-vid, .benefits-txt{
-        width: 100%;
-        margin: 0;
-        padding-left: 0;
-    }
-    .features-txt h1, .benefits-txt h1{
-        padding-right: 0;
-        text-align: center;
-    }
-    .features-vid img, .benefits-img img{
-        width: 100%;
-    }
-    .benefits-img img{
-        height: 623px;
-    }
-    .list{
-        display: block;
-    }
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: block;
-    }
-
-    .testimonial{
-        margin: 0 1rem;
-    }
-    .carousel{
-        width: 100%;
-        margin: 0;
-    }
-    .slide {
-        min-width: 100%;
-    }
-
-    
-    .fift{
-        padding: 2rem;
-    }
-    .cl-logo{
-        min-width: 50%;
-    }
-    .cl-logo img{
-        width: 150px;
-    }
-
-    .subscrip{
-        padding: 2rem 2rem;
-    }
-    .subs-txt{
-        padding: 0;
-    }
-    .subs-txt h3{
-        font-size: 18px;
-        padding: 1rem 0;
-    }
-    input{
-        width: 94.96%;
-        margin: 4px 0;
-        padding: 8px 0;
-        padding-left: 15px;
-    }
-    .submit{
-        width: 100%;
-        font-size: 20px;
-    }
-
-    .footer{
-        width: 100%;
-    }
-    .footer img{
-        width: 54%;
-    }
-    .foot-txt{
-        display: block;
-    }
-    .foot-txt div{
-        padding: 0.3rem;
-    }
-    .lst{
-        padding-top: 2rem;
-    }
-}
-
 /* Tablet */
-@media (max-width: 1000px) and (min-width: 500px){
+@media (max-width: 1000px){
     body{
         width: auto;
     }
@@ -403,6 +218,191 @@
     }
     .foot-txt div{
         padding: 0.4rem;
+    }
+    .lst{
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    body{
+        width: auto;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 1.1em;
+        letter-spacing: 1px;
+    }
+    h3,h2,p{
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+
+    .hero{
+        display: block;
+        margin: 0.3rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .fst-txt{
+        width: 100%;
+        margin: 0.5rem 0.2rem;
+        text-align: center;
+    }
+    .txt{
+        width: 100%;
+    }
+    .logo{
+        width: 59%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .fst-img{
+        margin-top: 5rem;
+        width: auto;
+        height: auto;
+    }
+
+    .txt-preview{
+        display: block;
+        padding: 5rem 1.6rem; 
+        padding-bottom: 13px;
+        height: auto;
+    }
+    #i, #e{
+        width: 100%;
+        text-align: center;
+    }
+    #i h1{
+        font-size: 33px;
+        line-height: 1.3em;
+        padding-bottom: 1rem;
+    }
+    .sec-img{
+        padding: 0 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .sec{
+        margin: 0.5rem 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .cards, .large-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .card, .card-strong{
+        width: 100%;
+        min-height: 1px;
+        height: 340px;
+        margin: 0; 
+    }
+    .card-txt{
+        padding: 10px 20px 10px 25px;
+    }
+    .card-txt h1{
+        font-size: 38px;
+    }
+    .card-txt p{
+        font-size: 16px;
+    }
+    .strong{
+        margin-top: 1em;
+    }
+    .cards-bottom{
+        margin-top: 5rem;
+    }
+    .cards-bottom h2{
+        font-size: 24px;
+        font-family: "Bebas Neue";
+        line-height: 1.3em;
+    }
+
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 6rem;
+        position: relative;
+    }
+    .features-txt,.benefits-img, .features-vid, .benefits-txt{
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+    }
+    .features-txt h1, .benefits-txt h1{
+        padding-right: 0;
+        text-align: center;
+    }
+    .features-vid img, .benefits-img img{
+        width: 100%;
+    }
+    .benefits-img img{
+        height: 623px;
+    }
+    .list{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .testimonial{
+        margin: 0 1rem;
+    }
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .slide {
+        min-width: 100%;
+    }
+
+    
+    .fift{
+        padding: 2rem;
+    }
+    .cl-logo{
+        min-width: 50%;
+    }
+    .cl-logo img{
+        width: 150px;
+    }
+
+    .subscrip{
+        padding: 2rem 2rem;
+    }
+    .subs-txt{
+        padding: 0;
+    }
+    .subs-txt h3{
+        font-size: 18px;
+        padding: 1rem 0;
+    }
+    input{
+        width: 94.96%;
+        margin: 4px 0;
+        padding: 8px 0;
+        padding-left: 15px;
+    }
+    .submit{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .footer img{
+        width: 54%;
+    }
+    .foot-txt{
+        display: block;
+    }
+    .foot-txt div{
+        padding: 0.3rem;
     }
     .lst{
         padding-top: 2rem;
